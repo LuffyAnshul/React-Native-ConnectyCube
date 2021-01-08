@@ -17,26 +17,9 @@ ConnectyCube Video Chat API documentation - [https://developers.connectycube.com
 
 ## Screenshots
 
-<kbd><img alt="React Native video chat code sample, login" src="https://developers.connectycube.com/docs/_images/code_samples/reactnative/reactnative_codesample_video_login.PNG" width="200" /></kbd> <kbd><img alt="React Native video chat code sample, select users" src="https://developers.connectycube.com/docs/_images/code_samples/reactnative/reactnative_codesample_video_select_users.PNG" width="200" /></kbd> <kbd><img alt="React Native video chat code sample, video chat" src="https://developers.connectycube.com/docs/_images/code_samples/reactnative/reactnative_codesample_video_video.PNG" width="200" /></kbd>
-
-## Roadmap
-
-- Push notifications on incoming call
-- Call Kit
 
 ## Quick start and develop
 
-Quick start [React Native](https://facebook.github.io/react-native/docs/getting-started.html) app.
-
-Prepare environment for React Native and:
-
-1. Clone the project;
-2. Install node_modules: `cd connectycube-reactnative-samples/RNVideoChat && npm install`;
-3. Run `npm run ios` or `npm run android`.
-
-## Running on a device
-
-The above command will automatically run your app on the iOS Simulator by default. If you want to run the app on an actual physical iOS device, please follow the instructions [here](https://facebook.github.io/react-native/docs/running-on-device).
 
 ## Build your own VideoChat app
 
@@ -87,21 +70,5 @@ To make the sample works for your own app, please do the following:
     ];
     ```
 
-3.  (Optional) If you are at [Enterprise](https://connectycube.com/pricing/) plan - provide your API server and Chat server endpoints at `src/config.js` file to point the sample against your own server:
-
-    ```javascript
-    {
-       endpoints: {
-           api: "",
-           chat: ""
-       },
-       ...
-    };
-    ```
-
-4. Install node modules - `npm install`
-5. Run `npm run ios` or `npm run android`.
-
-## Can't build yourself?
-
-Got troubles with building React Native code sample? Just create an issue at [Issues page](https://github.com/ConnectyCube/connectycube-reactnative-samples/issues) - we will create the sample for you. For FREE!
+3. Install node modules - `npm install`
+4. Run `react-native run-ios` or `react-native run-android`.
