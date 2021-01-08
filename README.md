@@ -17,11 +17,16 @@ ConnectyCube Video Chat API documentation - [https://developers.connectycube.com
 
 ## Screenshots
 
+<p float="left">
+    <img src="./demoImages/img1.jpg" width="30%" />
+    <img src="./demoImages/img2.jpg" width="30%" />
+</p>
+
 
 ## Quick start and develop
 
 
-## Build your own VideoChat app
+### Build your own VideoChat app
 
 To make the sample works for your own app, please do the following:
 
